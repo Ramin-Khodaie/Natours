@@ -1,0 +1,25 @@
+{
+  "name": "natours",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ramin-Khodaie/Natours.git"
+  },
+  "author": "RaminKh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ramin-Khodaie/Natours/issues"
+  },
+  "homepage": "https://github.com/Ramin-Khodaie/Natours#readme",
+  "dependencies": {
+    "sass": "^1.44.0"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.1"
+  }
+}
