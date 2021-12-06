@@ -7,10 +7,13 @@
 @import "abstracts/mixins";
 @import "abstracts/functions";
 
+@import "components/video";
 @import "components/buttons";
 @import "components/card";
 @import 'components/compositions';
 @import 'components/features.scss';
+@import 'components/story.scss';
+
 
 @import "pages/home";
 
