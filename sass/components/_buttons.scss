@@ -1,5 +1,6 @@
 
 .btn {
+  &,
     &:link,
     &:visited {
       text-decoration: none;
@@ -9,6 +10,9 @@
       border-radius: 10rem;
       transition: all 0.2s;
       position: relative;
+
+      border: none;
+      cursor: pointer;
     }
     &-white {
       background: $color-white;
@@ -24,7 +28,8 @@
         background-color: $color-primary;
       }
     }
-    &:active {
+    &:active,:focus {
+      outline: none;
       transform: translateY(-0.1rem);
       box-shadow: 0 1rem 1rem rgba(0, 0, 0, 0.2);
     }
